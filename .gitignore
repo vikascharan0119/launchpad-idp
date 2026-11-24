@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.auto.tfvars
+terraform.tfvars
+
+# Kubernetes / Helm
+kubeconfig
+*.kubeconfig
+platform/charts/*/charts/*.tgz
+
+# Secrets and local env
+.env
+.env.*
+*.pem
+
+# Python (assistant)
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

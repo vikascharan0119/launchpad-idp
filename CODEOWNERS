@@ -1,0 +1,14 @@
+# Who must review a change, by path. The last matching line wins.
+# This is a one-person project, so every path maps to the same owner.
+# In a team, each line would name a different group, for example
+# @org/platform-team for /platform/ and @org/sre for /docs/runbooks/.
+
+*                        @vikascharan0119
+
+/infra/                  @vikascharan0119
+/platform/               @vikascharan0119
+/services/               @vikascharan0119
+/assistant/              @vikascharan0119
+/chaos/                  @vikascharan0119
+/docs/                   @vikascharan0119
+/.github/                @vikascharan0119
